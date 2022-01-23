@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         builder: (context, orientation) {
           SizeConfig().init(constraints, orientation);
           return MaterialApp(
-            title: 'Learning platform application',
+            title: 'Learning platform application Demo',
             theme: AppTheme.lightTheme,
             home: WelcomeScreen(),
           );
